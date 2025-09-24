@@ -1,0 +1,29 @@
+/* Menu.css */
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #1e1e2f;
+  border-bottom: 2px solid #444;
+}
+
+.menu a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu a.active {
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+}

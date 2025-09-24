@@ -1,0 +1,23 @@
+.page {
+  padding: 20px;
+  width: 500px;
+  min-height: 300px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* จัดกลางแนวตั้ง */
+  align-items: center;     /* จัดกลางแนวนอน */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme */
+.page.light {
+  background-color: #eee;
+  color: #000;
+}
+
+/* Dark Theme */
+.page.dark {
+  background-color: #333;
+  color: #fff;
+}
